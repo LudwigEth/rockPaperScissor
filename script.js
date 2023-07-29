@@ -12,3 +12,7 @@ function getComputerChoice() {
         return computerChoice = "Scissor";
     }
 }
+
+function playRound(playerSelection, computerSelection) {
+    
+}
