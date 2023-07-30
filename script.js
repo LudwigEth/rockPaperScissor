@@ -1,6 +1,3 @@
-console.log("Helo world");
-
-
 function getComputerChoice() {
     let computerChoice;
     let randomChoice = Math.random();
@@ -13,6 +10,3 @@ function getComputerChoice() {
     }
 }
 
-function playRound(playerSelection, computerSelection) {
-    
-}
