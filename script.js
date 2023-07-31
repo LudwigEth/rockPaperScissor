@@ -1,12 +1,16 @@
+const rock = "rock";
+const paper = "paper";
+const scissor = "scissor";
+
+
 function getComputerChoice() {
-    let computerChoice;
-    let randomChoice = Math.random();
+    const randomChoice = Math.random();
     if (randomChoice < 1/3) {
-        return computerChoice = "rock";
+        return rock;
     } else if (randomChoice > 2/3) {
-        return computerChoice = "paper";
+        return paper;
     } else {
-        return computerChoice = "scissor";
+        return scissor;
     }
 }
 
