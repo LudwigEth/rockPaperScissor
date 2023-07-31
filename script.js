@@ -15,7 +15,7 @@ function playRound() {
     const computerSelection = getComputerChoice();
     let playerSelection = prompt("Rock Paper Scissor?");
     playerSelection = playerSelection.toLowerCase();
-    if (!playerSelection === "rock" || "paper" || "scissor") {
+    while (playerSelection !== "rock" && playerSelection !== "paper" && playerSelection !== "scissor") {
         playerSelection = prompt("choose rock, paper or scissor!");
         playerSelection = playerSelection.toLowerCase();
     }
